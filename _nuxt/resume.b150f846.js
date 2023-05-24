@@ -1,0 +1,1 @@
+import{i as e,f as s,o as c,k as t}from"./entry.fafe4a78.js";const o={},n={class:"w-screen h-screen"},r=t("embed",{src:"/Resume2023.pdf",height:"100%",width:"100%"},null,-1),_=[r];function a(d,i){return c(),s("div",n,_)}const h=e(o,[["render",a]]);export{h as default};

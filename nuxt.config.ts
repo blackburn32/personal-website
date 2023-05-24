@@ -1,6 +1,5 @@
 export default defineNuxtConfig({
     app: {
-        baseURL: '/personal-website/',
         head: {
             title: 'Alex Blackburn',
             meta: [

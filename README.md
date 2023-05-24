@@ -2,6 +2,8 @@
 
 A personal Website built with Nuxt 3 and Tailwind CSS.
 
+See the site in action at [https://www.alexblackburn.me](https://www.alexblackburn.me).
+
 ## Setup
 
 ```bash

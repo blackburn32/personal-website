@@ -1,6 +1,6 @@
 <template>
-    <div v-motion-slide-visible-bottom class="flex flex-row w-full">
-        <div class="flex flex-col w-1/2 m-4 ml-8 justify-center">
+    <div v-motion-slide-visible-once-bottom class="flex flex-col md:flex-row w-full">
+        <div class="flex flex-col md:w-1/2 m-4 ml-8 justify-center">
             <div class="text-3xl font-semibold">
                 Epic Systems
             </div>
@@ -21,7 +21,7 @@
         </div>
         <img
             alt="Epic Systems"
-            class="w-1/2 m-4 mr-8"
+            class="md:w-1/2 m-4 mr-8"
             src="https://upload.wikimedia.org/wikipedia/commons/2/24/Epic_Systems.svg"
         />
     </div>

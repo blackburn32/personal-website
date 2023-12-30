@@ -3,8 +3,8 @@
         <div class="text-center text-4xl m-16 font-semibold">
             Writing
         </div>
-        <div v-motion-pop-visible class="flex flex-row items-center">
-            <div class="mx-8 w-1/2 flex flex-col">
+        <div class="flex flex-col md:flex-row items-center">
+            <div class="mx-8 md:w-1/2 flex flex-col">
                 <div class="text-3xl font-semibold mt-8 mb-4">
                     SLUG Magazine
                 </div>
@@ -25,29 +25,13 @@
                     >
                         Check out my articles here,
                     </NuxtLink>
-                    or click one of the images to read more!
+                    or click one of these links to read more!
                 </div>
             </div>
-            <div class="flex flex-row mx-8 w-1/2 justify-center items-center">
-                <div class="carousel carousel-center max-w-full p-4 space-x-4 rounded-box">
-                    <div v-for="article in slugArticles" class="carousel-item h-[320px] w-[320px] relative">
-                        <NuxtLink
-                            :href="article.link"
-                            external="external"
-                            target="_blank"
-                        >
-                            <img
-                                :alt="article.title"
-                                :src="article.image"
-                                class="h-[320px] w-[320px]"
-                            />
-                        </NuxtLink>
-                    </div>
-                </div>
-            </div>
+            <WritingCarousel title="SLUG Magazine" :items="slugArticles" carousel="slug-carousel" prev="slug-prev" next="slug-next"/>
         </div>
-        <div v-motion-pop-visible class="flex flex-row-reverse w-full items-center">
-            <div class="mx-8 w-1/2">
+        <div class="flex flex-col md:flex-row-reverse w-full items-center">
+            <div class="mx-8 md:w-1/2">
                 <div class="text-3xl font-semibold mb-4">
                     Salt Lake Magazine
                 </div>
@@ -68,26 +52,10 @@
                     >
                         Check out my articles here,
                     </NuxtLink>
-                    or click one of the images to read more!
+                    or click one of these links to read more!
                 </div>
             </div>
-            <div class="flex flex-row mx-8 w-1/2 justify-center items-center mt-32">
-                <div class="carousel carousel-center max-w-full p-4 space-x-4 rounded-box">
-                    <div v-for="article in slMagArticles" class="carousel-item h-[300px] w-[427px] relative">
-                        <NuxtLink
-                            :href="article.link"
-                            external="external"
-                            target="_blank"
-                        >
-                            <img
-                                :alt="article.title"
-                                :src="article.image"
-                                class="h-[300px] w-[427px]"
-                            />
-                        </NuxtLink>
-                    </div>
-                </div>
-            </div>
+            <WritingCarousel title="Salt Lake Magazine" :items="slMagArticles" carousel="sl-carousel" prev="sl-prev" next="sl-next"/>
         </div>
     </div>
 </template>
@@ -270,7 +238,7 @@ const slugArticles = [
         'link': 'https://www.slugmag.com/music/local-music-reviews/big-blue-ox-big-blue-ox/',
         'image': 'https://mloz35cl5wye.i.optimole.com/cb:s357.4350f/w:640/h:582/q:90/https://www.slugmag.com/wp/wp-content/uploads/2018/03/352-April-Big-Blue-Ox.jpg',
     }, {
-        'title': 'Local Review: Black Jupiter – Transcendentalism in Lofi-Infrared',
+        'title': 'Local Review: Black Jupiter –Transcendentalism in Lofi-Infrared',
         'link': 'https://www.slugmag.com/music/local-music-reviews/local-black-jupiter/',
         'image': 'https://mloz35cl5wye.i.optimole.com/cb:s357.4350f/w:640/h:640/q:90/https://www.slugmag.com/wp/wp-content/uploads/2018/07/356-Ed-LMR-Black-Jupiter.jpg',
     }, {

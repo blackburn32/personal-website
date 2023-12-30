@@ -11,52 +11,57 @@
             <li class="step step-info">Present</li>
         </ul>
         <div class="flex flex-col md:flex-row md:mx-8 mt-4 justify-between">
-            <div v-motion-slide-visible-left class="card card-compact md:w-1/6 bg-neutral p-4 mx-4 my-4 h-fit">
+            <div v-motion-slide-visible-once-left class="card card-compact md:w-1/6 bg-neutral p-4 mx-4 my-4 h-fit">
                 <div class="card-title">Software Engineer I</div>
                 <div>I joined Lucid fresh out of school on their Enterprise team. We worked on admin facing
                      functionality like user management. I worked full stack, learning as much as I could, and taking on
                      every opportunity I encountered.
                 </div>
             </div>
-            <div v-motion-slide-visible-left class="card card-compact md:w-1/6 bg-neutral p-4 mx-4 my-4 h-fit">
+            <div v-motion-slide-visible-once-left class="card card-compact md:w-1/6 bg-neutral p-4 mx-4 my-4 h-fit">
                 <div class="card-title">Software Engineer II</div>
                 <div>I got the opportunity to take over as team lead for the Enterprise team in late 2019. The
                      experience propelled my career forward, giving me countless opportunities to lead high value
-                     projects like usage data for account admins, and bulk user search tools using OpenSearch.
+                     projects like usage data for account admins, and bulk user search tools using OpenSearch. I also
+                     began managing 3 individual contributors, and was responsible for their career growth.
                 </div>
             </div>
-            <div v-motion-slide-visible-left class="card card-compact md:w-1/6 bg-neutral p-4 mx-4 my-4 h-fit">
+            <div v-motion-slide-visible-once-left class="card card-compact md:w-1/6 bg-neutral p-4 mx-4 my-4 h-fit">
                 <div class="card-title">Sr. Software Engineer I</div>
                 <div>After getting my feet wet as a team lead, I took a chance and switched to Lucid's Data Platform
-                     team to work on a larger, longer technical project called the Data Sync Framework. I also took
-                     charge of generating new interview questions, leading a team of more than 40 engineers to deliver
-                     10 new questions.
+                     team to work as an individual contributor on a larger technical project called the Data Sync
+                     Framework. I also took charge of generating new interview questions, leading a team of more than 40
+                     engineers to deliver 10 new interview questions, and ensuring a smooth rollout of the new
+                     questions.
                 </div>
             </div>
-            <div v-motion-slide-visible-left class="card card-compact md:w-1/6 bg-neutral p-4 mx-4 my-4 h-fit">
+            <div v-motion-slide-visible-once-left class="card card-compact md:w-1/6 bg-neutral p-4 mx-4 my-4 h-fit">
                 <div class="card-title">Sr. Software Engineer II</div>
-                <div>With the successful delivery of the bulk of the data sync framework, data integrations began
-                     getting pumped out. I worked with many teams to help them leverage and extend the data sync
-                     framework, and began exposing the framework for external developers to leverage through our
-                     Extension Api.
+                <div>With the successful delivery of the Data Sync Framework, data integrations began
+                     getting pumped out at a high rate. I worked with many teams to help them leverage and extend the
+                     data sync framework, and began exposing the framework for external developers to leverage through
+                     our upcoming Extension Api.
                 </div>
             </div>
             <div
-                v-motion-slide-visible-left class="card card-compact md:w-1/6 bg-neutral p-4 mx-4 my-4 h-fit"
+                v-motion-slide-visible-once-left class="card card-compact md:w-1/6 bg-neutral p-4 mx-4 my-4 h-fit"
             >
                 <div class="card-title">Present</div>
-                <div>After completing the Data Sync Framework, I switched teams and now lead Lucid's Extension API team.
-                     We are building out an extension framework that anyone can use to build their own functionality
-                     into Lucid's editors.
+                <div>Today I lead Lucid's Extension API team and manage 4 individual contributors. We launched the
+                     Extension API platform in August 2023 enabling developers from anywhere in the world to extend
+                     Lucid 's editors. Since launch our marketplace has seen a huge amount of growth, and I work
+                     frequently with internal and external teams to help them create extensions for Lucid's editors. I
+                     have also continued to develop our recruiting processes, once again leading a group to develop new
+                     interview questions, training new interviewers for our hiring panel, and mentoring new hires.
                 </div>
             </div>
         </div>
-        <div class="text-xl font-semibold m-4 mx-8 mt-16 mb-8">
+        <div class="text-2xl font-semibold m-4 mx-8 mt-16 mb-8">
             Accomplishments at Lucid
         </div>
         <div class="flex flex-col w-full space-y-32">
-            <div v-motion-slide-visible-left class="flex flex-row w-full">
-                <div class="flex flex-col w-1/2 m-4 ml-8 justify-center items-center">
+            <div v-motion-slide-visible-once-left class="flex flex-col md:flex-row w-full">
+                <div class="flex flex-col md:w-1/2 m-4 ml-8 justify-center items-center">
                     <div class="text-lg font-semibold mb-4 w-full">
                         Data Sync Framework
                     </div>
@@ -75,8 +80,8 @@
                         target="_blank"
                     >Learn more about data connectors</a>
                 </div>
-                <div class="flex flex-row w-1/2 px-8 space-x-8 items-center">
-                    <img class="w-3/5" src="/lucid.svg"/>
+                <div class="flex flex-row md:w-1/2 px-8 space-x-8 items-center">
+                    <img class="w-3/5" src="/images/lucid.svg"/>
                     <Icon class="text-white" name="mdi:arrow-left-right" size="128"/>
                     <div class="flex-col space-y-8" style="width: 40%">
                         <Icon class="w-full" name="logos:jira" size="128"/>
@@ -85,8 +90,8 @@
                     </div>
                 </div>
             </div>
-            <div v-motion-slide-visible-right class="flex flex-row-reverse w-full">
-                <div class="flex flex-col w-1/2 m-4 ml-8 justify-center items-center">
+            <div v-motion-slide-visible-once-right class="flex flex-col md:flex-row-reverse w-full">
+                <div class="flex flex-col md:w-1/2 m-4 ml-8 justify-center items-center">
                     <div class="text-lg font-semibold mb-4 w-full">
                         Group Admins and Distributed License Management
                     </div>
@@ -104,7 +109,7 @@
                         target="_blank"
                     >Learn more about group admins</a>
                 </div>
-                <img class="w-1/2 mx-8 " src="/lucid.svg"/>
+                <img class="md:w-1/2 mx-8 " src="/images/lucid.svg"/>
             </div>
         </div>
     </div>

@@ -1,6 +1,6 @@
 <template>
-    <div v-motion-slide-visible-top class="flex flex-row-reverse w-full">
-        <div class="flex flex-col w-1/2 m-4 ml-8 justify-center">
+    <div v-motion-slide-visible-once-top class="flex flex-col md:flex-row-reverse w-full">
+        <div class="flex flex-col md:w-1/2 m-4 ml-8 justify-center">
             <div class="text-3xl font-semibold">
                 Theradoc
             </div>
@@ -14,7 +14,7 @@
         </div>
         <img
             alt="Theradoc"
-            class="w-1/2 m-4 mr-8 rounded-xl shadow-xl"
+            class="md:w-1/2 m-4 mr-8 rounded-xl shadow-xl"
             src="https://www.pppmag.com/files/products/images/714/714_784296406.png"
         />
     </div>

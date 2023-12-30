@@ -3,8 +3,8 @@
         <div class="text-4xl text-center font-semibold m-8">
             Music
         </div>
-        <div class="flex flex-row w-full justify-between">
-            <div v-motion-slide-visible-left class="flex flex-col m-8 w-1/3">
+        <div class="flex flex-col md:flex-row w-full justify-between">
+            <div v-motion-slide-visible-once-left class="flex flex-col m-8 md:w-1/3">
                 <div class="text-3xl text-center font-semibold">
                     The Cult Classics
                 </div>
@@ -24,7 +24,7 @@
                     />
                 </div>
             </div>
-            <div v-motion-slide-visible-top class="flex flex-col m-8 w-1/3">
+            <div v-motion-slide-visible-once-top class="flex flex-col m-8 md:w-1/3">
                 <div class="text-3xl text-center font-semibold">
                     The Shape of Color
                 </div>
@@ -32,14 +32,13 @@
                 <iframe
                     allowfullscreen
                     class="shadow-xl rounded-xl mt-16"
-                    frameborder="0"
                     height="315"
                     src="https://www.youtube.com/embed/L88XgB_Ovb8"
                     title="The Shape of Color - Aussie"
                     width="560"
                 ></iframe>
             </div>
-            <div v-motion-slide-visible-right class="flex flex-col m-8 w-1/3">
+            <div v-motion-slide-visible-once-right class="flex flex-col m-8 md:w-1/3">
                 <div class="text-3xl text-center font-semibold">
                     Soundcloud
                 </div>

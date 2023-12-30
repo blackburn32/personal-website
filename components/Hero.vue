@@ -1,5 +1,5 @@
 <template>
-    <div class="hero md:min-h-screen">
+    <div class="hero min-h-screen">
         <div class="hero-content">
             <div class="max-w-md">
                 <h1 class="mb-5 text-5xl font-bold">

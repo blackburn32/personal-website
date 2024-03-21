@@ -1,5 +1,5 @@
 <template>
-    <div class="flex flex-col md:flex-row w-full">
+    <div class="flex w-full" :class="`flex-col md:${flexDirection}`">
         <div v-motion-slide-visible-once-left class="flex flex-col md:w-1/2 m-4 ml-8 justify-center">
             <div class="text-2xl font-semibold mb-8">
                 The Cult Classics
@@ -35,3 +35,8 @@
         </div>
     </div>
 </template>
+<script setup lang="ts">
+const props = defineProps({
+    flexDirection: String
+})
+</script>

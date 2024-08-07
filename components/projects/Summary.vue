@@ -8,7 +8,6 @@
         <ProjectsSoundshaper flex-direction="flex-row-reverse"/>
         <ProjectsSimplePiano flex-direction="flex-row"/>
         <ProjectsMetronome flex-direction="flex-row-reverse"/>
-        <ProjectsTheCultClassics flex-direction="flex-row"/>
-        <ProjectsServerlessIsEven flex-direction="flex-row-reverse"/>
+        <ProjectsServerlessIsEven flex-direction="flex-row"/>
     </div>
 </template>

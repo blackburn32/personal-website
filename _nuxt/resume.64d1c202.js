@@ -1,0 +1,1 @@
+import{_ as e,c as s,o as c,a as t}from"./entry.d9efffd9.js";const o={},n={class:"w-screen h-screen"},r=t("embed",{src:"/Resume2024.pdf",height:"100%",width:"100%"},null,-1),_=[r];function a(d,i){return c(),s("div",n,_)}const f=e(o,[["render",a]]);export{f as default};

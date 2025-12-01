@@ -6,7 +6,7 @@
                     Alex Blackburn
                 </h1>
                 <p class="mb-5">
-                    Senior Software Engineer, Writer, Musician
+                    Software Engineer, Writer, Musician
                 </p>
             </div>
         </div>

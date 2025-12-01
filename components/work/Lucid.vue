@@ -46,13 +46,10 @@
             <div
                 v-motion-slide-visible-once-left class="card card-compact md:w-1/6 bg-neutral p-4 mx-4 my-4 h-fit"
             >
-                <div class="card-title">Present</div>
-                <div>Today I lead Lucid's Extension API team and manage 4 individual contributors. We launched the
-                     Extension API platform in August 2023 enabling developers from anywhere in the world to extend
-                     Lucid 's editors. Since launch our marketplace has seen a huge amount of growth, and I work
-                     frequently with internal and external teams to help them create extensions for Lucid's editors. I
-                     have also continued to develop our recruiting processes, once again leading a group to develop new
-                     interview questions, training new interviewers for our hiring panel, and mentoring new hires.
+                <div class="card-title">Staff Engineer</div>
+                <div>Today I act as the technical lead for 3 teams working on data integrations between Lucid and popular task tracking tools like Jira and Azure DevOps.
+                     I am an active participant in Lucid's technical leadership community, and mentor several engineers across the company.
+                     I also play an important role in our recruitment process, giving tech talks at universities, and designing and running interview questions.
                 </div>
             </div>
         </div>

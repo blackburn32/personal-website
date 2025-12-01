@@ -2,7 +2,7 @@
     <ProjectBase
         projectName="World Gourmet"
         projectDescription="An AI written food blog which explores ingredients and recipes from around the world. Written in Typescript, using Nuxt 3 and Tailwind CSS. Hosted on Github Pages."
-        projectUrl="https://www.worldgourmet.us/"
+        projectUrl="https://blackburn32.github.io/world-gourmet/"
         sourceCodeUrl="https://github.com/blackburn32/world-gourmet"
         frameWidth="w-1/2"
         descriptionWidth="w-1/2"
